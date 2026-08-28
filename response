@@ -1,0 +1,1015 @@
+created
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:45+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918025515097</timestamp>
+          <id>SYSTEM</id>
+          <severity>INFORMATIONAL</severity>
+          <facility>LOCAL7</facility>
+          <priority>190</priority>
+          <pid>27896</pid>
+          <log-message>UI_CHILD_STATUS: Cleanup child '/usr/bin/mosquitto_sub', PID 27898, status 0xe00</log-message>
+          <application>netconf-notification-client</application>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>UI_CHILD_STATUS: Cleanup child '/usr/bin/mosquitto_sub', PID 27898, status 0xe00</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:45+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>SYSTEM</id>
+      <type>3</type>
+      <priority>190</priority>
+      <facility>23</facility>
+      <timestamp>
+        <seconds>1787918025</seconds>
+        <microseconds>515097</microseconds>
+      </timestamp>
+      <pid>27896</pid>
+      <message>UI_CHILD_STATUS: Cleanup child '/usr/bin/mosquitto_sub', PID 27898, status 0xe00</message>
+      <daemon>netconf-notification-client</daemon>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>UI_CHILD_STATUS: Cleanup child '/usr/bin/mosquitto_sub', PID 27898, status 0xe00</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:45+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918025517502</timestamp>
+          <id>SYSTEM</id>
+          <severity>INFORMATIONAL</severity>
+          <facility>DAEMON</facility>
+          <priority>30</priority>
+          <pid>26045</pid>
+          <log-message>Allocated node for mosq : 0xc3ddc0, Client : mosqsub/27897-, topic : /netconf-notification, max bytes in queue : 10485760, hash_size is 500, hashIndex is 0xc5e000</log-message>
+          <application>mosquitto</application>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>Allocated node for mosq : 0xc3ddc0, Client : mosqsub/27897-, topic : /netconf-notification, max bytes in queue : 10485760, hash_size is 500, hashIndex is 0xc5e000</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:45+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>SYSTEM</id>
+      <type>3</type>
+      <priority>30</priority>
+      <facility>3</facility>
+      <timestamp>
+        <seconds>1787918025</seconds>
+        <microseconds>517502</microseconds>
+      </timestamp>
+      <pid>26045</pid>
+      <message>Allocated node for mosq : 0xc3ddc0, Client : mosqsub/27897-, topic : /netconf-notification, max bytes in queue : 10485760, hash_size is 500, hashIndex is 0xc5e000</message>
+      <daemon>mosquitto</daemon>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>Allocated node for mosq : 0xc3ddc0, Client : mosqsub/27897-, topic : /netconf-notification, max bytes in queue : 10485760, hash_size is 500, hashIndex is 0xc5e000</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:45+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918025523306</timestamp>
+          <id>SYSTEM</id>
+          <severity>NOTICE</severity>
+          <facility>USER</facility>
+          <priority>13</priority>
+          <pid>27896</pid>
+          <log-message>UI_CHILD_EXITED: Child exited: PID 27898, status 14, command '/usr/bin/mosquitto_sub'</log-message>
+          <application>netconf-notification-client</application>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>UI_CHILD_EXITED: Child exited: PID 27898, status 14, command '/usr/bin/mosquitto_sub'</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:45+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>SYSTEM</id>
+      <type>3</type>
+      <priority>13</priority>
+      <facility>1</facility>
+      <timestamp>
+        <seconds>1787918025</seconds>
+        <microseconds>523306</microseconds>
+      </timestamp>
+      <pid>27896</pid>
+      <message>UI_CHILD_EXITED: Child exited: PID 27898, status 14, command '/usr/bin/mosquitto_sub'</message>
+      <daemon>netconf-notification-client</daemon>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>UI_CHILD_EXITED: Child exited: PID 27898, status 14, command '/usr/bin/mosquitto_sub'</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:45+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918025529295</timestamp>
+          <id>SYSTEM</id>
+          <severity>INFORMATIONAL</severity>
+          <facility>LOCAL7</facility>
+          <priority>190</priority>
+          <pid>27896</pid>
+          <log-message>UI_CHILD_STATUS: Cleanup child '/usr/bin/mosquitto_sub', PID 27898, status 0xe00</log-message>
+          <application>netconf-notification-client</application>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>UI_CHILD_STATUS: Cleanup child '/usr/bin/mosquitto_sub', PID 27898, status 0xe00</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:45+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>SYSTEM</id>
+      <type>3</type>
+      <priority>190</priority>
+      <facility>23</facility>
+      <timestamp>
+        <seconds>1787918025</seconds>
+        <microseconds>529295</microseconds>
+      </timestamp>
+      <pid>27896</pid>
+      <message>UI_CHILD_STATUS: Cleanup child '/usr/bin/mosquitto_sub', PID 27898, status 0xe00</message>
+      <daemon>netconf-notification-client</daemon>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>UI_CHILD_STATUS: Cleanup child '/usr/bin/mosquitto_sub', PID 27898, status 0xe00</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:45+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918025539449</timestamp>
+          <id>SYSTEM</id>
+          <severity>ERROR</severity>
+          <facility>USER</facility>
+          <priority>11</priority>
+          <pid>27896</pid>
+          <log-message>UI_CHILD_WAITPID: waitpid failed: PID 27898, rc -1, status e00: No child processes</log-message>
+          <application>netconf-notification-client</application>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>UI_CHILD_WAITPID: waitpid failed: PID 27898, rc -1, status e00: No child processes</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:45+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>SYSTEM</id>
+      <type>3</type>
+      <priority>11</priority>
+      <facility>1</facility>
+      <timestamp>
+        <seconds>1787918025</seconds>
+        <microseconds>539449</microseconds>
+      </timestamp>
+      <pid>27896</pid>
+      <message>UI_CHILD_WAITPID: waitpid failed: PID 27898, rc -1, status e00: No child processes</message>
+      <daemon>netconf-notification-client</daemon>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>UI_CHILD_WAITPID: waitpid failed: PID 27898, rc -1, status e00: No child processes</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918027224473</timestamp>
+          <id>PIC</id>
+          <severity>EMERGENCY</severity>
+          <facility>LOCAL4</facility>
+          <priority>160</priority>
+          <pid>0</pid>
+          <log-message>fpc0 SCHED: Thread 74 (PFE Statistics) ran for 1045 ms without yielding
+</log-message>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>fpc0 SCHED: Thread 74 (PFE Statistics) ran for 1045 ms without yielding
+</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>PIC</id>
+      <type>3</type>
+      <priority>160</priority>
+      <facility>20</facility>
+      <timestamp>
+        <seconds>1787918027</seconds>
+        <microseconds>224473</microseconds>
+      </timestamp>
+      <pid>0</pid>
+      <message>fpc0 SCHED: Thread 74 (PFE Statistics) ran for 1045 ms without yielding
+</message>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>fpc0 SCHED: Thread 74 (PFE Statistics) ran for 1045 ms without yielding
+</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918027224552</timestamp>
+          <id>PIC</id>
+          <severity>EMERGENCY</severity>
+          <facility>LOCAL4</facility>
+          <priority>160</priority>
+          <pid>0</pid>
+          <log-message>fpc0 Scheduler Oinker
+</log-message>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>fpc0 Scheduler Oinker
+</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>PIC</id>
+      <type>3</type>
+      <priority>160</priority>
+      <facility>20</facility>
+      <timestamp>
+        <seconds>1787918027</seconds>
+        <microseconds>224552</microseconds>
+      </timestamp>
+      <pid>0</pid>
+      <message>fpc0 Scheduler Oinker
+</message>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>fpc0 Scheduler Oinker
+</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918027224643</timestamp>
+          <id>PIC</id>
+          <severity>EMERGENCY</severity>
+          <facility>LOCAL4</facility>
+          <priority>160</priority>
+          <pid>0</pid>
+          <log-message>fpc0 Frame 0: sp = 0xe322ee68, pc = 0x8090263
+</log-message>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>fpc0 Frame 0: sp = 0xe322ee68, pc = 0x8090263
+</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>PIC</id>
+      <type>3</type>
+      <priority>160</priority>
+      <facility>20</facility>
+      <timestamp>
+        <seconds>1787918027</seconds>
+        <microseconds>224643</microseconds>
+      </timestamp>
+      <pid>0</pid>
+      <message>fpc0 Frame 0: sp = 0xe322ee68, pc = 0x8090263
+</message>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>fpc0 Frame 0: sp = 0xe322ee68, pc = 0x8090263
+</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918027224737</timestamp>
+          <id>PIC</id>
+          <severity>EMERGENCY</severity>
+          <facility>LOCAL4</facility>
+          <priority>160</priority>
+          <pid>0</pid>
+          <log-message>fpc0 Frame 1: sp = 0xe322ee88, pc = 0x818dfe5
+</log-message>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>fpc0 Frame 1: sp = 0xe322ee88, pc = 0x818dfe5
+</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>PIC</id>
+      <type>3</type>
+      <priority>160</priority>
+      <facility>20</facility>
+      <timestamp>
+        <seconds>1787918027</seconds>
+        <microseconds>224737</microseconds>
+      </timestamp>
+      <pid>0</pid>
+      <message>fpc0 Frame 1: sp = 0xe322ee88, pc = 0x818dfe5
+</message>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>fpc0 Frame 1: sp = 0xe322ee88, pc = 0x818dfe5
+</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918027225174</timestamp>
+          <id>PIC</id>
+          <severity>EMERGENCY</severity>
+          <facility>LOCAL4</facility>
+          <priority>160</priority>
+          <pid>0</pid>
+          <log-message>fpc0 Frame 2: sp = 0xe322eff8, pc = 0x8095ce6
+</log-message>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>fpc0 Frame 2: sp = 0xe322eff8, pc = 0x8095ce6
+</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>PIC</id>
+      <type>3</type>
+      <priority>160</priority>
+      <facility>20</facility>
+      <timestamp>
+        <seconds>1787918027</seconds>
+        <microseconds>225174</microseconds>
+      </timestamp>
+      <pid>0</pid>
+      <message>fpc0 Frame 2: sp = 0xe322eff8, pc = 0x8095ce6
+</message>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>fpc0 Frame 2: sp = 0xe322eff8, pc = 0x8095ce6
+</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918027225407</timestamp>
+          <id>PIC</id>
+          <severity>EMERGENCY</severity>
+          <facility>LOCAL4</facility>
+          <priority>160</priority>
+          <pid>0</pid>
+          <log-message>fpc0 Frame 3: sp = 0xdeb47fd8, pc = 0x808d0f8
+</log-message>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>fpc0 Frame 3: sp = 0xdeb47fd8, pc = 0x808d0f8
+</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>PIC</id>
+      <type>3</type>
+      <priority>160</priority>
+      <facility>20</facility>
+      <timestamp>
+        <seconds>1787918027</seconds>
+        <microseconds>225407</microseconds>
+      </timestamp>
+      <pid>0</pid>
+      <message>fpc0 Frame 3: sp = 0xdeb47fd8, pc = 0x808d0f8
+</message>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>fpc0 Frame 3: sp = 0xdeb47fd8, pc = 0x808d0f8
+</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918027225520</timestamp>
+          <id>PIC</id>
+          <severity>EMERGENCY</severity>
+          <facility>LOCAL4</facility>
+          <priority>160</priority>
+          <pid>0</pid>
+          <log-message>fpc0 Frame 4: sp = 0xdeb47ff8, pc = 0x8095ce6
+</log-message>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>fpc0 Frame 4: sp = 0xdeb47ff8, pc = 0x8095ce6
+</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>PIC</id>
+      <type>3</type>
+      <priority>160</priority>
+      <facility>20</facility>
+      <timestamp>
+        <seconds>1787918027</seconds>
+        <microseconds>225520</microseconds>
+      </timestamp>
+      <pid>0</pid>
+      <message>fpc0 Frame 4: sp = 0xdeb47ff8, pc = 0x8095ce6
+</message>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>fpc0 Frame 4: sp = 0xdeb47ff8, pc = 0x8095ce6
+</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918027225706</timestamp>
+          <id>PIC</id>
+          <severity>EMERGENCY</severity>
+          <facility>LOCAL4</facility>
+          <priority>160</priority>
+          <pid>0</pid>
+          <log-message>fpc0 Frame 5: sp = 0xffb11568, pc = 0x808ebec
+</log-message>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>fpc0 Frame 5: sp = 0xffb11568, pc = 0x808ebec
+</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>PIC</id>
+      <type>3</type>
+      <priority>160</priority>
+      <facility>20</facility>
+      <timestamp>
+        <seconds>1787918027</seconds>
+        <microseconds>225706</microseconds>
+      </timestamp>
+      <pid>0</pid>
+      <message>fpc0 Frame 5: sp = 0xffb11568, pc = 0x808ebec
+</message>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>fpc0 Frame 5: sp = 0xffb11568, pc = 0x808ebec
+</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918027225814</timestamp>
+          <id>PIC</id>
+          <severity>EMERGENCY</severity>
+          <facility>LOCAL4</facility>
+          <priority>160</priority>
+          <pid>0</pid>
+          <log-message>fpc0 Frame 6: sp = 0xffb11588, pc = 0x8095575
+</log-message>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>fpc0 Frame 6: sp = 0xffb11588, pc = 0x8095575
+</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>PIC</id>
+      <type>3</type>
+      <priority>160</priority>
+      <facility>20</facility>
+      <timestamp>
+        <seconds>1787918027</seconds>
+        <microseconds>225814</microseconds>
+      </timestamp>
+      <pid>0</pid>
+      <message>fpc0 Frame 6: sp = 0xffb11588, pc = 0x8095575
+</message>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>fpc0 Frame 6: sp = 0xffb11588, pc = 0x8095575
+</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918027226414</timestamp>
+          <id>PIC</id>
+          <severity>EMERGENCY</severity>
+          <facility>LOCAL4</facility>
+          <priority>160</priority>
+          <pid>0</pid>
+          <log-message>fpc0 Frame 7: sp = 0xffb11598, pc = 0x807bcad
+</log-message>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>fpc0 Frame 7: sp = 0xffb11598, pc = 0x807bcad
+</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>PIC</id>
+      <type>3</type>
+      <priority>160</priority>
+      <facility>20</facility>
+      <timestamp>
+        <seconds>1787918027</seconds>
+        <microseconds>226414</microseconds>
+      </timestamp>
+      <pid>0</pid>
+      <message>fpc0 Frame 7: sp = 0xffb11598, pc = 0x807bcad
+</message>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>fpc0 Frame 7: sp = 0xffb11598, pc = 0x807bcad
+</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918027226532</timestamp>
+          <id>PIC</id>
+          <severity>EMERGENCY</severity>
+          <facility>LOCAL4</facility>
+          <priority>160</priority>
+          <pid>0</pid>
+          <log-message>fpc0 Frame 8: sp = 0xffb115b8, pc = 0xf73f71a6
+</log-message>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>fpc0 Frame 8: sp = 0xffb115b8, pc = 0xf73f71a6
+</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:47+00:00</eventTime>
+<syslog>
+<junos>
+  <events>
+    <event>
+      <id>PIC</id>
+      <type>3</type>
+      <priority>160</priority>
+      <facility>20</facility>
+      <timestamp>
+        <seconds>1787918027</seconds>
+        <microseconds>226532</microseconds>
+      </timestamp>
+      <pid>0</pid>
+      <message>fpc0 Frame 8: sp = 0xffb115b8, pc = 0xf73f71a6
+</message>
+      <hostname></hostname>
+      <attributes>
+        <key>message</key>
+        <value>fpc0 Frame 8: sp = 0xffb115b8, pc = 0xf73f71a6
+</value>
+      </attributes>
+    </event>
+  </events>
+</junos>
+</syslog>
+</notification>
+recieved
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+<eventTime>2026-08-28T11:53:49+00:00</eventTime>
+<state-system-syslog>
+<state>
+  <system>
+    <syslog>
+      <messages>
+        <message>
+          <timestamp>1787918029829088</timestamp>
+          <id>UI_YANG_GENERATION</id>
+          <severity>INFORMATIONAL</severity>
+          <facility>DAEMON</facility>
+          <priority>30</priority>
+          <pid>27884</pid>
+          <log-message>UI_YANG_GENERATION: Yang generation is successful</log-message>
+          <application>mgd</application>
+          <structured-data>
+            <parameters>
+              <parameter>
+                <name>message</name>
+                <value>is successful</value>
+              </parameter>
+            </parameters>
+          </structured-data>
+        </message>
+      </messages>
+    </syslog>
+  </system>
+</state>
+</state-system-syslog>
+</notification>
