@@ -19,13 +19,15 @@ xml = """
 
 root = etree.fromstring(xml)
 #print(type(root))
-result = root.xpath("./interface/name")[0]
-result.text()
+result = root.xpath("/root")[0]
+print(len(result))
+print(type(result))
+print(result.text)
 """
 for node in result:
     new_node = node.xpath("..")
     for x in new_node:
         print(etree.tostring(x, pretty_print=True).decode())
 """
-#print(etree.tostring(result, pretty_print=True).decode())
+print(etree.tostring(result, pretty_print=True).decode())
 #print(result)

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "net-auto"
+version = "0.1.0"
+description = ""
+authors = ["ngelechei.kiprop <ngelechei.kiprop@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ncclient = "^0.7.1"
+lxml = "^6.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
