@@ -7,8 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-ncclient = "^0.7.1"
 lxml = "^6.1.2"
+junos-eznc = "^2.8.2"
 
 
 [build-system]
