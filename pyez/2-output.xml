@@ -1,0 +1,243 @@
+names: 1
+<physical-interface>
+  <name>
+ge-0/0/0
+</name>
+  <admin-status format="Enabled">
+up
+</admin-status>
+  <oper-status>
+up
+</oper-status>
+  <local-index>
+150
+</local-index>
+  <snmp-index>
+528
+</snmp-index>
+  <link-level-type>
+Ethernet
+</link-level-type>
+  <mtu>
+1514
+</mtu>
+  <sonet-mode>
+LAN-PHY
+</sonet-mode>
+  <mru>
+1522
+</mru>
+  <source-filtering>
+disabled
+</source-filtering>
+  <speed>
+1000mbps
+</speed>
+  <eth-switch-error>
+none
+</eth-switch-error>
+  <remote-bounce>
+none
+</remote-bounce>
+  <bpdu-error>
+none
+</bpdu-error>
+  <ld-pdu-error>
+none
+</ld-pdu-error>
+  <l2pt-error>
+none
+</l2pt-error>
+  <loopback>
+disabled
+</loopback>
+  <if-flow-control>
+enabled
+</if-flow-control>
+  <if-auto-negotiation>
+enabled
+</if-auto-negotiation>
+  <if-remote-fault>
+online
+</if-remote-fault>
+  <pad-to-minimum-frame-size>
+Disabled
+</pad-to-minimum-frame-size>
+  <if-device-flags>
+    <ifdf-present/>
+    <ifdf-running/>
+  </if-device-flags>
+  <ifd-specific-config-flags>
+    <internal-flags>
+0x100200
+</internal-flags>
+  </ifd-specific-config-flags>
+  <if-config-flags>
+    <iff-snmp-traps/>
+    <internal-flags>
+0x4000
+</internal-flags>
+  </if-config-flags>
+  <if-media-flags>
+    <ifmf-none/>
+  </if-media-flags>
+  <physical-interface-cos-information>
+    <physical-interface-cos-hw-max-queues>
+8
+</physical-interface-cos-hw-max-queues>
+    <physical-interface-cos-use-max-queues>
+8
+</physical-interface-cos-use-max-queues>
+  </physical-interface-cos-information>
+  <current-physical-address>
+0c:b4:02:ee:00:01
+</current-physical-address>
+  <hardware-physical-address>
+0c:b4:02:ee:00:01
+</hardware-physical-address>
+  <interface-flapped seconds="1896">
+2026-09-04 10:25:46 UTC (00:31:36 ago)
+</interface-flapped>
+  <traffic-statistics style="brief">
+    <input-bps>
+3880
+</input-bps>
+    <input-pps>
+7
+</input-pps>
+    <output-bps>
+120088
+</output-bps>
+    <output-pps>
+89
+</output-pps>
+  </traffic-statistics>
+  <active-alarms>
+    <interface-alarms>
+      <alarm-not-present/>
+    </interface-alarms>
+  </active-alarms>
+  <active-defects>
+    <interface-alarms>
+      <alarm-not-present/>
+    </interface-alarms>
+  </active-defects>
+  <ethernet-pcs-statistics style="verbose">
+    <bit-error-seconds>
+0
+</bit-error-seconds>
+    <errored-blocks-seconds>
+0
+</errored-blocks-seconds>
+  </ethernet-pcs-statistics>
+  <interface-transmit-statistics>
+Disabled
+</interface-transmit-statistics>
+  <logical-interface>
+    <name>
+ge-0/0/0.0
+</name>
+    <local-index>
+332
+</local-index>
+    <snmp-index>
+548
+</snmp-index>
+    <if-config-flags>
+      <iff-up/>
+      <iff-snmp-traps/>
+      <internal-flags>
+0x4004000
+</internal-flags>
+    </if-config-flags>
+    <encapsulation>
+ENET2
+</encapsulation>
+    <policer-overhead>
+</policer-overhead>
+    <traffic-statistics style="brief">
+      <input-packets>
+4678
+</input-packets>
+      <output-packets>
+10009
+</output-packets>
+    </traffic-statistics>
+    <filter-information>
+</filter-information>
+    <address-family>
+      <address-family-name>
+inet
+</address-family-name>
+      <mtu>
+1500
+</mtu>
+      <max-local-cache>
+75000
+</max-local-cache>
+      <new-hold-limit>
+75000
+</new-hold-limit>
+      <intf-curr-cnt>
+1
+</intf-curr-cnt>
+      <intf-unresolved-cnt>
+0
+</intf-unresolved-cnt>
+      <intf-dropcnt>
+0
+</intf-dropcnt>
+      <address-family-flags>
+        <ifff-sendbcast-pkt-to-re/>
+        <internal-flags>
+0x0
+</internal-flags>
+      </address-family-flags>
+      <interface-address>
+        <ifa-flags>
+          <ifaf-current-default/>
+          <ifaf-current-preferred/>
+          <ifaf-current-primary/>
+        </ifa-flags>
+        <ifa-destination>
+10.100.100/24
+</ifa-destination>
+        <ifa-local>
+10.100.100.2
+</ifa-local>
+        <ifa-broadcast>
+10.100.100.255
+</ifa-broadcast>
+      </interface-address>
+      <interface-address>
+        <ifa-flags>
+          <ifaf-current-preferred/>
+        </ifa-flags>
+        <ifa-destination>
+192.168.100/24
+</ifa-destination>
+        <ifa-local>
+192.168.100.2
+</ifa-local>
+        <ifa-broadcast>
+192.168.100.255
+</ifa-broadcast>
+      </interface-address>
+    </address-family>
+    <address-family>
+      <address-family-name>
+multiservice
+</address-family-name>
+      <mtu>
+Unlimited
+</mtu>
+      <address-family-flags>
+        <ifff-is-primary/>
+        <internal-flags>
+0x0
+</internal-flags>
+      </address-family-flags>
+    </address-family>
+  </logical-interface>
+</physical-interface>
+
